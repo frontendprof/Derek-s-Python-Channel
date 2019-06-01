@@ -11,6 +11,8 @@ How tall is the tree : 5
     #
 '''
 
+# Needs addition, which includes other parameters where you can prompt stumpts length and width.
+
 # Here is the logic for drawing a pine tree:
 # 4 - 1
 # 3 - 3
