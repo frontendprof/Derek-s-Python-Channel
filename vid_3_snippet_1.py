@@ -22,11 +22,11 @@ print("Secret Message :", secret_string)
  
 norm_string = ""
  
-# Cycle through each character code 2 at a time by incrementing by
-# 2 each time through since unicodes go from 65 to 90
+# Cycle through each character code 3 at a time by incrementing by
+# Each time through since unicodes go from 65 to 90
 for i in range(0, len(secret_string)-1, 3):
  
-    # Get the 1st and 2nd for the 2 digit number
+    # Get the 1st and 2nd and third for the 3 digit number
     char_code = secret_string[i] + secret_string[i+1]+secret_string[i+2]
  
     # Convert the codes into characters and add them to the new string
