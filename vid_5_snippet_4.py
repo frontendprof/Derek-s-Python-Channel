@@ -4,6 +4,8 @@
 
 import math
 
+# This program is for calculating area of specific shapes.
+
 print("""We can calculate
 
                 rectangles
