@@ -22,22 +22,22 @@ How tall is the tree : 5
 # Spaces before stump = Spaces before top
 
 tall=eval(input("What is the height of the tree?  "))
-white=tall-1
-hashv=tall-white
+space=tall-1
+star=1
 stump=tall-1
 
 while tall !=0:
 
-  for i in range(white):
+  for i in range(space):
     print(" ", end="")
   
-  for i in range(hashv):
-    print("#", end="")
+  for i in range(star):
+    print("*", end="")
 
   print()
 
-  white-=1
-  hashv+=2
+  space-=1
+  star+=2
   tall-=1
 
 for i in range(stump):
