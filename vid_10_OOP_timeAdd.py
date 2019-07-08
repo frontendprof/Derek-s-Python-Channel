@@ -6,7 +6,7 @@
 """
 Coding Problem using Magic Method:
 We can use magic methods to define how operators like +, -, *, /, ==, >, <, etc. will work with our
-custom objects
+custom objects and it is called operator overloading
 """
 
 
